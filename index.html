@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <div class="app"> 
+
+ 
+
+    <header> 
+        <h1>IT Study Planner</h1> 
+        <p>Мой учебный план</p> 
+    </header> 
+
+ 
+
+    <section class="input-area"> 
+        <input 
+            type="text" 
+            id="taskInput" 
+            placeholder="Введите учебную задачу" 
+        > 
+
+ 
+
+        <button id="addButton"> 
+            Добавить 
+        </button> 
+    </section> 
+
+ 
+
+    <section class="statistics"> 
+        <p>Всего задач: <span id="total">0</span></p> 
+
+
+        <p>Выполнено: <span id="completed">0</span></p> 
+    </section> 
+
+ 
+
+    <ul id="taskList"></ul> 
+
+ 
+
+    <p id="emptyMessage">Пока задач нет. Добавьте первую!</p> 
+
+ 
+
+</div> 
+    <script src="./script.js"></script>
+  </body>
+</html>
